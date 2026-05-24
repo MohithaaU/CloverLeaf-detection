@@ -21,3 +21,6 @@ valid/
 test/
 
 *.jpg
+
+README.dataset.txt
+README.roboflow.txt
