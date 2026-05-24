@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+
+# YOLO training outputs
+runs/
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# Notebook cachegit status
+.ipynb_checkpoints/
+
+train/
+valid/
+test/
+
+*.jpg
