@@ -1,9 +1,7 @@
 from ultralytics import YOLO
 
-# Load the smallest YOLOv8 model (fastest on CPU)
 model = YOLO("yolov8n.pt")
 
-# Train it on our clover dataset
 model.train(
     data="data.yaml",
     epochs=50,
